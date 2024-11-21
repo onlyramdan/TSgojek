@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",  // Direktori keluaran hasil kompilasi
+    "rootDir": "./src",  // Direktori di mana file TypeScript Anda disimpan
+    "target": "es5",     // Target versi JavaScript (bisa diubah sesuai kebutuhan)
+    "module": "commonjs" // Aturan modul yang digunakan
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
